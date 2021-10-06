@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
         - name: web2
-          image: gcr.io/google-samples/node-hello:2.0
+          image: gcr.io/google-samples/hello-app:2.0
           resources:
             limits:
               memory: "128Mi"
