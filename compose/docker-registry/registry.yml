@@ -5,7 +5,8 @@ services:
     container_name: registry
     restart: always
     image: registry:2.7
-    ports: 5000:5000
+    ports:
+      - 5000:5000
     volumes:
       - registry-data:/var/lib/registry
 
